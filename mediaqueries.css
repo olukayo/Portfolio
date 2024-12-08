@@ -16,7 +16,12 @@
     }
     #hamburger-nav {
       display: flex;
+      
     }
+    .menu-links {
+        right: 0;
+        left: unset;
+      }
   
     /* Adjustments for smaller screens */
     #experience,
@@ -51,6 +56,13 @@
   
   @media screen and (max-width: 600px) {
     /* Contact and Footer adjustments */
+
+    .menu-links {
+        width: 100%;
+      }
+      .menu-links a {
+        text-align: center;
+      }
     #contact,
     footer {
       height: 40vh;
