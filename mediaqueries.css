@@ -1,4 +1,6 @@
 /* GENERAL RESPONSIVE SETTINGS */
+
+/* Large Screens - 1400px */
 @media screen and (max-width: 1400px) {
     #profile {
       height: 83vh;
@@ -9,21 +11,21 @@
     }
   }
   
+  /* Medium Screens - 1200px */
   @media screen and (max-width: 1200px) {
-    /* Hide desktop nav and show hamburger menu */
+    /* Navigation Adjustments */
     #desktop-nav {
       display: none;
     }
     #hamburger-nav {
       display: flex;
-      
     }
     .menu-links {
-        right: 0;
-        left: unset;
-      }
+      right: 0;
+      left: unset;
+    }
   
-    /* Adjustments for smaller screens */
+    /* Section Adjustments */
     #experience,
     .experience-details-container {
       margin-top: 2rem;
@@ -36,7 +38,6 @@
       display: none;
     }
   
-    /* Section and container adjustments */
     section,
     .section-container {
       height: fit-content;
@@ -54,15 +55,17 @@
     }
   }
   
+  /* Small Screens - 600px */
   @media screen and (max-width: 600px) {
-    /* Contact and Footer adjustments */
-
+    /* Navigation Adjustments */
     .menu-links {
-        width: 100%;
-      }
-      .menu-links a {
-        text-align: center;
-      }
+      width: 100%;
+    }
+    .menu-links a {
+      text-align: center;
+    }
+  
+    /* Contact and Footer Adjustments */
     #contact,
     footer {
       height: 40vh;
@@ -72,7 +75,7 @@
       margin-bottom: 0;
     }
   
-    /* Adjust font sizes for smaller devices */
+    /* Text and Font Adjustments */
     article {
       font-size: 1rem;
     }
@@ -83,20 +86,18 @@
       font-size: 1.5rem;
     }
   
-    /* Footer adjustments */
     footer nav {
       height: fit-content;
       margin-bottom: 2rem;
     }
   
-    /* Flexible wrapping for containers */
+    /* Flexible Wrapping */
     .about-container,
     .contact-info-upper-container,
     .btn-container {
       flex-wrap: wrap;
     }
   
-    /* Contact info adjustments */
     .contact-info-container {
       margin: 0;
     }
@@ -105,14 +106,13 @@
       font-size: 1rem;
     }
   
-    /* Navigation links adjustments */
+    /* Section Adjustments */
     .nav-links {
       flex-direction: column;
       gap: 0.5rem;
       text-align: center;
     }
   
-    /* Section content adjustments */
     .section_pic-container {
       width: auto;
       height: 46vh;
@@ -128,7 +128,8 @@
       text-align: justify;
     }
   }
-
+  
+  /* Tablet Screens - 768px */
   @media screen and (max-width: 768px) {
     #projects {
       padding: 2rem 1rem;
@@ -155,5 +156,4 @@
       padding: 0.5rem 1rem;
     }
   }
-  
   
