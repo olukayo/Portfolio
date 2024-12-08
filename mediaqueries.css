@@ -239,6 +239,9 @@
     }
   
     /* About Section */
+    #about{
+        margin-top: 0;
+    }
     .about-containers {
       flex-wrap: wrap;
       gap: 1rem;
