@@ -224,7 +224,7 @@
   
     /* Profile Section */
     #profile {
-      margin-bottom: 0;
+      margin-bottom: 0.5rem; /* Reduced margin to decrease space */
       text-align: center;
     }
   
@@ -239,9 +239,10 @@
     }
   
     /* About Section */
-    #about{
-        margin-top: 0;
+    #about {
+      margin-top: 0;
     }
+  
     .about-containers {
       flex-wrap: wrap;
       gap: 1rem;
@@ -253,6 +254,11 @@
       text-align: center;
     }
   
+    /* Reducing margin between profile and about sections */
+    #about {
+      margin-top: -1rem; /* Negative margin to reduce space */
+    }
+    
     /* Projects Section */
     #projects {
       padding: 1rem;
@@ -305,36 +311,37 @@
     }
   
     .experience-sub-title {
-        font-size: 1.5rem;
-      }
-    
-      /* Contact Section */
-      #contact {
-        height: auto;
-        text-align: center;
-      }
-    
-      .contact-info-container {
-        flex-wrap: wrap;
-        gap: 0.5rem;
-      }
-    
-      .contact-info-container p {
-        font-size: 1rem;
-      }
-    
-      /* Footer Section */
-      footer {
-        text-align: center;
-        padding: 1rem 0;
-      }
-    
-      footer nav {
-        flex-direction: column;
-        gap: 0.5rem;
-      }
-    
-      .nav-links li {
-        margin: 0.5rem 0;
-      }
+      font-size: 1.5rem;
     }
+  
+    /* Contact Section */
+    #contact {
+      height: auto;
+      text-align: center;
+    }
+  
+    .contact-info-container {
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+  
+    .contact-info-container p {
+      font-size: 1rem;
+    }
+  
+    /* Footer Section */
+    footer {
+      text-align: center;
+      padding: 1rem 0;
+    }
+  
+    footer nav {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  
+    .nav-links li {
+      margin: 0.5rem 0;
+    }
+  }
+  
