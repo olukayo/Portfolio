@@ -9,7 +9,17 @@
     .about-containers {
       flex-wrap: wrap;
     }
-  }
+    .section_pic-container-2 {
+        max-width: 1200px; /* Expand the container */
+        max-height: 800px;
+        padding: 20px; /* Add more padding for larger screens */
+    }
+
+    .section_pic-container-2 img {
+        border-radius: 15px; /* Larger rounding for a modern look */
+    }
+}
+  
   
   /* Medium Screens - 1200px */
   @media screen and (max-width: 1200px) {
@@ -75,7 +85,15 @@
       height: 83vh;
       margin-bottom: 0;
     }
-  
+    .section_pic-container-2 {
+        max-width: 90%; /* Use 90% of the screen width */
+        max-height: 400px;
+        padding: 5px;
+    }
+
+    .section_pic-container-2 img {
+        border-radius: 5px; /* Smaller rounding */
+    }
     /* Text and Font Adjustments */
     article {
       font-size: 1rem;
@@ -168,6 +186,17 @@
     section {
       margin: 0 2%;
       padding: 1rem 0;
+    }
+    .section_pic-container-2 {
+        max-width: 60%; /* Full-width for the container */
+        max-height: 300px;
+        padding: 2px; /* Minimized padding */
+    }
+
+    .section_pic-container-2 img {
+        border-radius: 2px; /* Almost no rounding */
+        border-radius: 20px;
+        
     }
   
     .section-container {
